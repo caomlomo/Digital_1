@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: #454545;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.display-exito{
+    padding-top: 15%;
+    font-family: 'Open Sans', sans-serif;
+}
+.Casa{
+    text-decoration: none;
+    color:white;
+}

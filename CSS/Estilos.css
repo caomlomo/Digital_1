@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+/*-----------------------Variable*/
+:root{
+--green-color:#7ACC2D;
+--white-color:white;
+--Open-Sans:'Open Sans', sans-serif;
+--box:0px 0px 3px 0px grey;
+}
+/*-----------------------Variable*/
+
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+p,label{
+    font-size: var(--Open-Sans)
+}
+
+
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding: 10px;
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-radius: 0 0 15px 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav ul{
+  display: flex;
+
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+
+}
+
+nav li a{
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: var(--white-color);
+}
+
+/* ------------------------ Main section */
+
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+
+.products{
+  background-image: url("../images/curve.png");
+  background-size: cover;
+  background-position: center top;
+  padding:15%;
+  display: flex;
+}
+
+.product{
+  padding: 10px;
+  margin-top: -300px;
+  max-width: 239px;
+  padding-left: 18%;
+}
+.product .content{
+  background-color: var(--white-color);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: var(--box);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.product .content img{
+    text-align: center;
+}
+
+.main_botton{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: 8px;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    box-shadow: var(--box);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main_botton:hover{
+    background-color: #4c9c01;
+}
+/*------------------the_best*/
+.the_best{
+    padding: 15%;
+    display: flex;
+    text-align: center;
+}
+
+.best{
+    padding: 10px;
+}
+
+.into{
+    background-color: var(--white-color);
+
+
+}
+/*------------------the_best*/
+.Big{
+    text-align: center;
+    padding: 5px;
+    font-size: 'Open Sans', sans-serif;
+}
+
+/*------------------Menciones*/
+.box_menciones{
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    padding-top: 1%;
+    padding-left: 11%;
+
+}
+
+.Menciones .on{
+
+    text-align: center;
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+
+
+
+
+}
+
+.Menciones{
+    padding: 10px;
+
+}
+
+.on{
+    text-align: center;
+    max-width: 239px
+
+
+}
+
+/*.Para-mencion{
+    max-width: 500000px;
+}*/
+/*------------------Menciones*/
+
+/*------------------Info*/
+footer{
+    background-color: #454545 ;
+    padding: 10px;
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1:hover{
+    color:grey;
+}
+/*------------------Info*/
+
+
+
+/*------------------------------Productos---------------------------------------------------*/
+.Titulo-producto{
+    padding-top: 5%;
+    padding-left: 20%;
+}
+.container{
+  max-width: 900px;
+  margin:auto;
+}
+
+.row{
+  display: flex;
+  padding: 30%;
+  padding-top: 0;
+  padding-bottom: 5%;;
+}
+
+.col-1{
+ /* width: 25%;*/
+}
+
+.col-2{
+  /*width: 25%;*/
+}
+
+
+.col-1,.col-2{
+  padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .row{
+    display: flex;
+    padding-left: 20%;
+  }
+  .col-1,.col-2{
+    width: 100%
+  }
+}
+/* container > row > column */
+/*------------------------------Productos---------------------------------------------------*/
+
+/*------------------------------ventas---------------------------------------------------*/
+.Cuadro-ventas{
+    padding: 30%;
+    padding-top: 5%;
+    padding-bottom: 2px;
+    display: flex;
+}
+.col-3{
+    background-color: var(--white-color);
+    padding: 5%;
+    border-radius: 15px;
+    box-shadow: var(--box);
+    padding-bottom: 0%;
+    padding-top: 0;
+
+}
+
+
+.col-4{
+    padding: 15%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+.Llenado{
+    padding: 4%;
+
+    border-radius:  2px 2px 2px 2px;
+    border-color: var(--black-color);
+    box-sizing: border-box;
+
+}
+.Confirmar-pago{
+    background-color: var(--green-color);
+    border-radius: 5px 5px 5px 5px;
+    padding: 5%;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: 101%;
+
+
+}
+
+.Confirmar-pago:hover{
+    background-color: #4c9c01;
+
+
+
+}
+
+.Espace{
+    margin-top: 5%;
+}
+
+
+
+
+/*------------------------------ventas---------------------------------------------------*/
+
+/*------------------------------Faqs---------------------------------------------------*/
+
+.Caja-dudas{
+    padding: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.Pregunta{
+    font-family: var(--Open-Sans);
+}
+
+/*------------------------------Faqs---------------------------------------------------*/

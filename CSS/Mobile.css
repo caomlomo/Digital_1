@@ -1,0 +1,37 @@
+@media (max-width:600px) {
+    .main_section{
+        padding-bottom: 5%;
+    }
+
+
+    .products{
+        display: inherit;
+        height: auto;
+
+    }
+
+    .product{
+        margin-top: auto;
+    }
+
+    .the_best{
+        display: inherit;
+        height: auto;
+
+    }
+
+    .best{
+        margin-top: auto;
+    }
+
+    .box_menciones{
+        display: inherit;
+        height: auto;
+        padding-left: 25%;
+    }
+
+    .Menciones{
+        margin-top: auto;
+    }
+
+}
